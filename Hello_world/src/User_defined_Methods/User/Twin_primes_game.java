@@ -18,8 +18,8 @@ public class Twin_primes_game {
 
     // Class method to display twin primes
     public static void displayTwinPrimes() {
-        System.out.println("The twin prime numbers which are less than 1200:");
-        for (int i = 3; i < 1200; i++) {
+        System.out.println("The twin prime numbers which are less than 1200 :");
+        for (int i = 3; i < 1200; i++) {// the limit is 1200
             if (CheckPrime(i) && CheckPrime(i + 2)) {
                 System.out.println(i + ", " + (i + 2));
             }
