@@ -1,8 +1,8 @@
 
-package chatper_3_Single_dim;
+import java.util.Scanner;
 
 public class EX_10_Number_to_English {
-    import java.util.Scanner;
+
 
     private static final String[] ONES = {
         "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
@@ -17,20 +17,18 @@ public class EX_10_Number_to_English {
     };
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
 
-        System.out.print("Enter an integer (0-999): ");
-        int number = scanner.nextInt();
+            System.out.print("Enter an integer (0-999): ");
+            int number = scanner.nextInt();
 
-        if (number < 0 || number > 999) {
-            System.out.println("Invalid input. Number must be within [0, 999].");
-        } else {
-            System.out.println(convertNumberToWords(number));
+            if (number < 0 || number > 999) {
+                System.out.println("Invalid input. Number must be within [0, 999].");
+            } else {
+                System.out.println(convertNumberToWords(number));
+            }
         }
-
-        scanner.close();
     }
-
     private static String convertNumberToWords(int number) {
         if (number == 0) {
             return "zero";
@@ -48,7 +46,7 @@ public class EX_10_Number_to_English {
             number %= 10;
         }
 
-        if (number >= 10 && number <= 19) {
+        if (number >= 10) {
             result.append(TEENS[number - 10]).append(" "); 
         } else if (number > 0) {
             result.append(ONES[number]).append(" ");
