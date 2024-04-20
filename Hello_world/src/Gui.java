@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 
-import static java.lang.Double.*;
+// The import java.lang.Double is not needed, so it can be removed
+
 
 public interface Gui {
     public static void main(String[] args) {

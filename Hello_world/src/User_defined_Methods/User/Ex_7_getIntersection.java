@@ -26,7 +26,7 @@ public class Ex_7_getIntersection {
     }
 
     public static void main(String[] args) {
-       
+ 
         char[] arr1 = new char[10];// create size 10 array1
         char[] arr2 = new char[10];// create size 10 array2
         for (int i = 0; i < arr1.length; i++) {
