@@ -2,7 +2,7 @@ package chatper_3_Single_dim;
 
 public class Excercise8CT3 {
     public static void main(String[] args) {
-        int numLockers = 100;
+        int numLockers = 10056;
         boolean[] lockers = new boolean[numLockers];
 
         // Set all lockers as closed
