@@ -18,7 +18,6 @@ public class EX1_rotateRight {
      list.add(0, lastElement);
      list.add(0, secondLastElement);
     System.out.println( "size :"+list.size());
-
      return list;
    }
 
