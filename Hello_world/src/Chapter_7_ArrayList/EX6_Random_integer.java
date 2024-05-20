@@ -31,7 +31,7 @@ public class EX6_Random_integer {
         System.out.print("The missing number(s) is/are: ");
         for (int i = 0; i < 10; i++) {
             if (!present[i]) {
-                System.out.print((i + 1) + " ");
+                System.out.print((i + 1) + "");
             }
         }
         System.out.println();
