@@ -4,7 +4,8 @@ package Chapter_7_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class EX5_Ask_people {
+public class EX5 {
+    
     public static void main(String[] args) {
         @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
