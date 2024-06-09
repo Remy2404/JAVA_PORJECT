@@ -17,7 +17,7 @@ public class EX10_sortArr {
             int temp = list.get(i);
             list.set(i, list.get(min));
             list.set(min, temp);
-            System.out.println(list);
+            System.out.println("My list: " + list);
             System.out.println("min: " + min);
             System.out.println("i: " + i);
             System.out.println("temp: " + temp);
