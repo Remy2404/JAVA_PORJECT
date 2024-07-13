@@ -1,6 +1,5 @@
 package Chapter_9_OOP;
 
-
 class Grade {
     // Data fileds
     int A;
