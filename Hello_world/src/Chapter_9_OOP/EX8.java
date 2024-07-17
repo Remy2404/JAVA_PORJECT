@@ -46,7 +46,7 @@ public int getPercentage(String grade) {
     int count;
     switch (grade) {
         case "A":
-            count = A;
+        count = A;
             break;
         case "B":
             count = B;
@@ -76,6 +76,7 @@ public void drawBarGraph() {
 }
 
 private void drawBar(String grade, int percentage) {
+    // draw a bar graph of the grade distribution be
     int asterisks = (percentage + 1) / 2; // One asterisk represents 2 percent
     System.out.print(grade + ": ");
     for (int i = 0; i < asterisks; i++) {
@@ -86,7 +87,7 @@ private void drawBar(String grade, int percentage) {
 }
 public class EX8 {
     public static void main(String[] args) {
-        Grade grades = new Grade(2, 4, 6, 2, 1);
+        Grade grades = new Grade(1, 4, 6, 2, 1);
         System.out.println("Total students: " + grades.getTotal_Students());
         System.out.println("Percentage of A: " + grades.getPercentage("A") + "%");
         System.out.println("Percentage of B: " + grades.getPercentage("B") + "%");
