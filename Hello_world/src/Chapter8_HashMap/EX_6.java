@@ -1,5 +1,6 @@
 package Chapter8_HashMap;
-
+/* Imortant: You need to have a HashMap called accounts with account numbers as keys and Account objects as values. */
+/* The public keyword is an access modifier used for classes, attributes, methods and constructors, making them accessible by any other class. */
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;

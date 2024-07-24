@@ -2,8 +2,8 @@ package Chapter_9_OOP;
 
 class MyPoint {
     // Data fields
-    private int x;
-    private int y;
+     int x;
+     int y;
 
     // No-arg constructor
     MyPoint() {
@@ -18,31 +18,31 @@ class MyPoint {
     }
 
     // Getter methods
-    public int getX() {
+     int getX() {
         return x;
     }
 
-    public int getY() {
+     int getY() {
         return y;
     }
 
 
     // Method to calculate distance from this point to another MyPoint object
-    public double distance(MyPoint another) {
+    double distance(MyPoint another) {
         int xDiff = this.x - another.x;
         int yDiff = this.y - another.y;
         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
     }
 
     // Method to calculate distance from this point to a point with specified coordinates
-    public double distance(int x, int y) {
+     double distance(int x, int y) {
         int xDiff = this.x - x;
         int yDiff = this.y - y;
         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
     }
 
     // Static method to calculate distance between two MyPoint objects
-    public static double distance(MyPoint p1, MyPoint p2) {
+     static double distance(MyPoint p1, MyPoint p2) {
         int xDiff = p1.x - p2.x;
         int yDiff = p1.y - p2.y;
         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);

@@ -6,7 +6,7 @@ class Rectangle {
     double height;
 
     // Constructors
-    public Rectangle() {
+     Rectangle() {
         // Default Constructor values
         width = 1;
         height = 2;
