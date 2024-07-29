@@ -1,4 +1,6 @@
 {
   "java.debug.settings.onBuildFailureProceed": true,
-  "cSpell.ignoreWords": ["sublist"]
+  "cSpell.ignoreWords": ["sublist"],
+  "java.project.sourcePaths": [".", "Hello_world\\src"],
+  "java.project.referencedLibraries": []
 }

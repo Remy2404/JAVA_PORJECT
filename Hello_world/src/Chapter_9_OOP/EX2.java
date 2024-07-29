@@ -7,6 +7,7 @@ class calculator {
     double num1;
     String opreator;
     double num2;
+    
 
     // Constructor
     calculator(double num1, String opreator, double num2) {
