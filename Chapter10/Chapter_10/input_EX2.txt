@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains multiple lines.
+We will count characters, words, and lines.
+The program should work correctly.
