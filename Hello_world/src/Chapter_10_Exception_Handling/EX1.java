@@ -20,7 +20,7 @@ public class EX1 {
         String numberString = String.valueOf(number);
         for (int i = 0; i < numberString.length() / 2; i++) {
             if (numberString.charAt(i) != numberString.charAt(numberString.length() - 1 - i)) {
-                throw new Exception(STR."\{number} is not a palindrome");
+                throw new Exception(number + " is not a palindrome");
             }
         }
         return true;

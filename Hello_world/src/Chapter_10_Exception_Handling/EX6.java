@@ -2,7 +2,7 @@ package Chapter_10_Exception_Handling;
 
 public class EX6 {
 
-    public static void main() {
+    public static void main(String[] args) {
         try {
             System.out.println(hex2Binary("1A3F")); // Valid hex string
             System.out.println(hex2Binary("GHIJ")); // Invalid hex string
@@ -13,7 +13,7 @@ public class EX6 {
 
     public static String hex2Binary(String hex) {
         if (hex == null || !hex.matches("[0-9A-Fa-f]+")) {
-            throw new NumberFormatException(STR."Invalid hexadecimal string: \{hex}");
+            throw new NumberFormatException("Invalid hexadecimal string:"+ hex);
         }
 
         StringBuilder binary = new StringBuilder();
