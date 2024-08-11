@@ -2,5 +2,7 @@
   "java.debug.settings.onBuildFailureProceed": true,
   "cSpell.ignoreWords": ["sublist"],
   "java.project.sourcePaths": [".", "Hello_world\\src"],
-  "java.project.referencedLibraries": []
+  "java.project.referencedLibraries": [
+    "c:\\Users\\Admin\\Downloads\\Compressed\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0.jar"
+  ]
 }

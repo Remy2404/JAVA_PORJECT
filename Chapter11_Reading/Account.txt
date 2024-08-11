@@ -1,0 +1,8 @@
+
+1: Ramy: 12345678: 1000.0
+Withdrawn: 10.0 USD
+Remaining Balance: 990.0 USD
+Deposited: 20.0 USD
+New Balance: 1010.0 USD
+2: Ramee_are_mee: 1234: 4600.0
+3: Ramy_mee: 1234: 1000.0
